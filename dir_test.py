@@ -17,28 +17,3 @@ if __name__ == '__main__':
 	root = 'F:\\src\\mock'
 	findFile(root)
 	containCertainStr(filenames, 'use')
-	
-#from __future__ import print_function
-#import os
-#import sys
-
-
-#def main():
-#	if sys.version_info.major >= 3:
-#		input_func = input
-#	else:
-#		input_func = raw_input
-		
-#	CheckDir = input_func("Enter the name of the directory to check: ")
-#	print()
-	
-#	if os.path.exists(CheckDir):
-#		print("The directory exists")
-#	else:
-#		print("No directory found for " + CheckDir)
-#		print()
-#		os.makedirs(CheckDir)
-#		print("Directory created for " + CheckDir)
-		
-#if __name__ == '__main__':
-#	main()
